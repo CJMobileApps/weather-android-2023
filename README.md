@@ -51,3 +51,9 @@ Dependencies
 
 Screen shots and Video Walkthrough
 ----
+![screenshot1](https://github.com/CJMobileApps/weather-android-2023/assets/18547470/b43d9f81-6aae-435a-b627-1aa151d4dc72)
+![screenshot2](https://github.com/CJMobileApps/weather-android-2023/assets/18547470/b19bb4b8-cc24-4233-956c-83109fb672e3)
+
+
+
+
