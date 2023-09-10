@@ -22,9 +22,6 @@ android {
             useSupportLibrary true
         }
     }
-//    testOptions {
-//        execution 'ANDROIDX_TEST_ORCHESTRATOR'
-//    }
 
     buildTypes {
         debug {
@@ -43,7 +40,7 @@ android {
     productFlavors {
         dev {
             buildConfigField "String", "BASE_URL", "\"https://api.openweathermap.org/\""
-            buildConfigField "String", "APPID", "\"ADD YOUR OWN API KEY HERE!\""
+            buildConfigField "String", "APPID", "\"replace-with-your-own-API-KEY-replace\""
             dimension "version"
         }
     }
@@ -117,49 +114,9 @@ dependencies {
     testImplementation("junit:junit:4.13.2")
     testRuntimeOnly("org.junit.vintage:junit-vintage-engine:5.9.1")
 
-//    // To use the androidx.test.core APIs
-//    androidTestImplementation("androidx.test:core:1.5.0")
-//    // Kotlin extensions for androidx.test.core
-//    androidTestImplementation("androidx.test:core-ktx:1.5.0")
-//
-//    // To use the androidx.test.espresso
-//    androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
-//
-//    // To use the JUnit Extension APIs
-//    androidTestImplementation("androidx.test.ext:junit:1.1.5")
-//    // Kotlin extensions for androidx.test.ext.junit
-//    androidTestImplementation("androidx.test.ext:junit-ktx:1.1.5")
-//
-//    // To use the Truth Extension APIs
-//    androidTestImplementation("androidx.test.ext:truth:1.5.0")
-//
-//    // To use the androidx.test.runner APIs
-//    androidTestImplementation("androidx.test:runner:1.5.0")
-//
-//    // To use android test orchestrator
-//    androidTestUtil("androidx.test:orchestrator:1.4.2")
-
     // Android Compose
     androidTestImplementation("androidx.compose.ui:ui-test-junit4:1.5.1")
     androidTestUtil 'androidx.test:orchestrator:1.4.2'
     androidTestImplementation 'androidx.test:runner:1.5.0'
-//    androidTestImplementation 'androidx.test.espresso:espresso-core:3.6.0-alpha01'
     androidTestImplementation 'androidx.test:core:1.5.0'
-    androidTestImplementation("androidx.test:runner:1.5.0")
-//
-//    implementation 'androidx.core:core-ktx:1.10.1'
-////    testImplementation 'androidx.test:core:1.5.0'
-////    androidTestImplementation 'androidx.test:core:1.5.0'
-////    testImplementation 'androidx.test:rules:1.5.0'
-////    androidTestImplementation 'androidx.test:rules:1.5.0'
-////    testImplementation 'androidx.test.ext:truth:1.5.0'
-////    androidTestImplementation 'androidx.test.ext:truth:1.5.0'
-////    testImplementation 'androidx.test:core-ktx:1.5.0'
-////    androidTestImplementation 'androidx.test:core-ktx:1.5.0'
-//
-////    testImplementation 'junit:junit:4.13.2'
-////    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
-//    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
-//    androidTestImplementation platform('androidx.compose:compose-bom:2022.10.00')
-//    androidTestImplementation 'androidx.compose.ui:ui-test-junit4'
 }
