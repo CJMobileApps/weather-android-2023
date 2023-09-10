@@ -1,6 +1,6 @@
 # Weather
 
-This is an Android app that displays the current weather. Uses [OpenWeather](https://openweathermap.org/) APIs
+This is an Android app that displays the current weather. Uses [OpenWeather](https://openweathermap.org/) APIs.
 
 Build Tools & Versions Used
 ----
@@ -11,7 +11,7 @@ Build Tools & Versions Used
 
 API Key
 ----
-Replace the `APPID` in the app module `build.gradle` file with a valid API key from [OpenWeather](https://openweathermap.org/)
+Replace the `APPID` in the app module `build.gradle` file with a valid API key from [OpenWeather](https://openweathermap.org/).
 
 TODO | Future Features
 ----
@@ -39,7 +39,7 @@ Dependencies
 **Libraries**
 - [Jetpack Compose](https://developer.android.com/jetpack/compose) - Jetpack Compose is Android’s recommended modern toolkit for building native UI. It simplifies and accelerates UI development on Android. Quickly bring your app to life with less code, powerful tools, and intuitive Kotlin APIs.
 - [Jetpack Navigation](https://developer.android.com/guide/navigation) - Android Jetpack's Navigation component helps you implement navigation, from simple button clicks to more complex patterns, such as app bars and the navigation drawer.
--[Compose UI Test](https://developer.android.com/jetpack/compose/testing) - Compose provides a set of testing APIs to find elements, verify their attributes and perform user actions. They also include advanced features such as time manipulation.
+- [Compose UI Test](https://developer.android.com/jetpack/compose/testing) - Compose provides a set of testing APIs to find elements, verify their attributes and perform user actions. They also include advanced features such as time manipulation.
 - [Coroutines](https://kotlinlang.org/docs/coroutines-overview.html) - Asynchronous or non-blocking programming is an important part of the development landscape. When creating server-side, desktop, or mobile applications, it's important to provide an experience that is not only fluid from the user's perspective, but also scalable when needed.
 - [Retrofit](http://square.github.io/retrofit/) - A type-safe HTTP client for Android and Java.
 - [Dagger Hilt](https://dagger.dev/hilt/) - Hilt provides a standard way to incorporate Dagger dependency injection into an Android application.
